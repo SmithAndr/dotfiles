@@ -139,6 +139,7 @@ alias bbbbb='cd ../../../../..'
 alias ker='kinit -fl 1d'
 alias reload='fc -R'
 alias ng='noglob'
+alias vi='/bin/vim'
 
 alias -g H='| head'
 alias -g T='2>&1 | tee -a'

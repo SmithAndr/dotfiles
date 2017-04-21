@@ -26,8 +26,7 @@ iabbrev taht that
 
 syntax on
 
-colorscheme forloop7
-
+colorscheme newproggie2
 let mapleader=" "
 
 set noautochdir                   " Change the current working directory whenever you open a file, ...
@@ -93,7 +92,7 @@ set   switchbuf=newtab,usetab     " Switching buffers opens in new tabs (TODO: d
 set   tabstop=8                   " Used only to display existing TABs, in my case old code, TAB=8
 set noterse                       " Message when searching passes end of file
 set notildeop                     " Tilde is just for current character
-set   textwidth=100               " Used mostly to position end-of-line marker
+set   textwidth=800               " Used mostly to position end-of-line marker
 set   undodir=~/.vim/undo         " Undo-location
 set   undofile                    " Enable undo preserved across editing sessions
 set   undolevels=500              " 500 undo changes
@@ -114,7 +113,7 @@ nnoremap R ciw
 nnoremap <F2> :set invpaste paste?<CR>
 
 let g:NERDTreeWinSize = 40
-let g:nerdtree_tabs_open_on_console_startup = 1
+let g:nerdtree_tabs_open_on_console_startup = 0
 let g:nerdtree_tabs_no_startup_for_diff = 1
 let g:nerdtree_tabs_meaningful_tab_names = 1
 let g:nerdtree_tabs_smart_startup_focus = 2
