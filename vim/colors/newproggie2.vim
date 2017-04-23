@@ -28,15 +28,15 @@ hi FoldColumn    cterm=none      ctermbg=234  ctermfg=107  gui=none   guibg=#1E1
 hi Folded        cterm=none      ctermbg=234  ctermfg=107  gui=none   guibg=#1E1E1E  guifg=#608B4E
 
 " Window / Tab delimiters
-hi TabLine       cterm=none      ctermbg=234  ctermfg=178  gui=none   guibg=#1E1E1E  guifg=#D69831
-hi TabLineFill   cterm=none      ctermbg=234  ctermfg=178  gui=none   guibg=#1E1E1E  guifg=#D69831
-hi TabLineSel    cterm=none      ctermbg=234  ctermfg=178  gui=none   guibg=#1E1E1E  guifg=#D69831
+hi TabLine       cterm=none      ctermbg=234  ctermfg=220  gui=none   guibg=#1E1E1E  guifg=#D69831
+hi TabLineFill   cterm=none      ctermbg=234  ctermfg=220  gui=none   guibg=#1E1E1E  guifg=#D69831
+hi TabLineSel    cterm=none      ctermbg=234  ctermfg=220  gui=none   guibg=#1E1E1E  guifg=#D69831
 hi OverLength    cterm=none      ctermbg=234  ctermfg=88  gui=none   guibg=#1E1E1E  guifg=#A94744
 
 " File navigation / Searching
 hi Directory     cterm=none      ctermbg=234  ctermfg=75  gui=none   guibg=#1E1E1E  guifg=#569CD6
 hi Search        cterm=none      ctermbg=30  ctermfg=255 gui=none   guibg=#218693  guifg=#F7F7F7
-hi IncSearch     cterm=none      ctermbg=178  ctermfg=240  gui=none   guibg=#D69831  guifg=#3C3C3C
+hi IncSearch     cterm=none      ctermbg=220  ctermfg=240  gui=none   guibg=#D69831  guifg=#3C3C3C
 
 " Prompt / Status
 hi StatusLine    cterm=none      ctermbg=240  ctermfg=255 gui=none   guibg=#3C3C3C  guifg=#F7F7F7
@@ -50,7 +50,7 @@ hi Visual        cterm=none      ctermbg=240  ctermfg=255 gui=none   guibg=#3C3C
 hi NonText       cterm=none      ctermbg=234  ctermfg=234  gui=none   guibg=#1E1E1E  guifg=#1E1E1E
 hi Error         cterm=none      ctermbg=88  ctermfg=248  gui=bold   guibg=#1E1E1E  guifg=#A94744
 hi ErrorMsg      cterm=none      ctermbg=88  ctermfg=248  gui=bold   guibg=#1E1E1E  guifg=#A94744
-hi Todo          cterm=none      ctermbg=88  ctermfg=178  gui=bold   guibg=#1E1E1E  guifg=#D69831
+hi Todo          cterm=none      ctermbg=88  ctermfg=220  gui=bold   guibg=#1E1E1E  guifg=#D69831
 hi Repeat        cterm=bold      ctermbg=234  ctermfg=88  gui=bold   guibg=#1E1E1E  guifg=#A94744
 
 " Completion menu
@@ -68,7 +68,7 @@ hi SpellLocal    cterm=underline ctermbg=234  ctermfg=127  gui=none   guibg=#1E1
 hi DiffAdd       cterm=none      ctermbg=107  ctermfg=71 gui=none   guibg=#608B4E  guifg=#B5F2A1
 hi DiffChange    cterm=none      ctermbg=75  ctermfg=45 gui=none   guibg=#569CD6  guifg=#CEEDFE
 hi DiffDelete    cterm=none      ctermbg=88  ctermfg=127  gui=none   guibg=#A94744  guifg=#FFBDB8
-hi DiffText      cterm=none      ctermbg=178  ctermfg=220 gui=none   guibg=#D69831  guifg=#FFD887
+hi DiffText      cterm=none      ctermbg=220  ctermfg=221 gui=none   guibg=#D69831  guifg=#FFD887
 
 " General language constructs
 hi Statement     cterm=none      ctermbg=234  ctermfg=75  gui=none   guibg=#1E1E1E  guifg=#569CD6
@@ -84,9 +84,9 @@ hi Define        cterm=none     ctermbg=234  ctermfg=175   gui=none   guibg=#1E1
 hi Macro         cterm=none     ctermbg=234  ctermfg=175   gui=none   guibg=#1E1E1E  guifg=#B06386
 hi PreCondit     cterm=none     ctermbg=234  ctermfg=175   gui=none   guibg=#1E1E1E  guifg=#B06386
 hi Type          cterm=none     ctermbg=234  ctermfg=75   gui=none   guibg=#1E1E1E  guifg=#569CD6
-hi String        cterm=none     ctermbg=234  ctermfg=178   gui=none   guibg=#1E1E1E  guifg=#D69831
-hi Method        cterm=none     ctermbg=234  ctermfg=220  gui=none   guibg=#1E1E1E  guifg=#F8BC41
-hi Function      cterm=none     ctermbg=234  ctermfg=220  gui=none   guibg=#1E1E1E  guifg=#F8BC41
+hi String        cterm=none     ctermbg=234  ctermfg=220   gui=none   guibg=#1E1E1E  guifg=#D69831
+hi Method        cterm=none     ctermbg=234  ctermfg=221  gui=none   guibg=#1E1E1E  guifg=#F8BC41
+hi Function      cterm=none     ctermbg=234  ctermfg=221  gui=none   guibg=#1E1E1E  guifg=#F8BC41
 hi Symbol        cterm=none     ctermbg=234  ctermfg=75   gui=none   guibg=#1E1E1E  guifg=#569CD6
 hi Structure     cterm=none     ctermbg=234  ctermfg=75   gui=none   guibg=#1E1E1E  guifg=#569CD6
 hi StorageClass  cterm=none     ctermbg=234  ctermfg=75   gui=none   guibg=#1E1E1E  guifg=#569CD6
