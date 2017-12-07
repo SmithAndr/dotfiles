@@ -29,6 +29,7 @@ syntax on
 colorscheme newproggie2
 let mapleader=" "
 
+set ttymouse=xterm2
 set noautochdir                   " Change the current working directory whenever you open a file, ...
 set   autoread                    " When a file has been detected to have been changed outside of Vim automatically read it again
 set   autoindent                  " Copy indent from current line when starting a new line, see smartindent, cindent

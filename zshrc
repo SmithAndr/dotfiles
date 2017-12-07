@@ -12,6 +12,11 @@ then
     export TERM=xterm-256color
 fi
 
+autoload -U up-line-or-beginning-search
+autoload -U down-line-or-beginning-search
+zle -N up-line-or-beginning-search
+zle -N down-line-or-beginning-search
+
 autoload -U compinit
 compinit
 
@@ -49,7 +54,7 @@ bindkey "^T" push-line-or-edit
 setopt EXTENDEDGLOB 
 setopt NO_CASE_GLOB
 setopt NUMERIC_GLOB_SORT
-
+setopt interactivecomments
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
 ## history
@@ -96,8 +101,8 @@ key[PageDown]=${terminfo[knp]}
 [[ -n "${key[End]}"     ]]  && bindkey  "${key[End]}"     end-of-line
 [[ -n "${key[Insert]}"  ]]  && bindkey  "${key[Insert]}"  overwrite-mode
 [[ -n "${key[Delete]}"  ]]  && bindkey  "${key[Delete]}"  delete-char
-[[ -n "${key[Up]}"      ]]  && bindkey  "${key[Up]}"      up-line-or-history
-[[ -n "${key[Down]}"    ]]  && bindkey  "${key[Down]}"    down-line-or-history
+[[ -n "${key[Up]}"      ]]  && bindkey  "${key[Up]}"      up-line-or-beginning-search
+[[ -n "${key[Down]}"    ]]  && bindkey  "${key[Down]}"    down-line-or-beginning-search
 [[ -n "${key[Left]}"    ]]  && bindkey  "${key[Left]}"    backward-char
 [[ -n "${key[Right]}"   ]]  && bindkey  "${key[Right]}"   forward-char
 
@@ -140,7 +145,11 @@ alias ker='kinit -fl 1d'
 alias reload='fc -R'
 alias ng='noglob'
 alias vi='/bin/vim'
-
+alias curl='curl -p -x fwdproxy.29.prn1:8080'
+alias fbcode='cd /data/users/ands/fbsource/fbcode'
+alias buck='python3 ~/builder.py -b'
+alias generator='python3 ~/generator.py'
+alias cleanzeusdata='rm -rf /tmp/zeusdata*'
 alias -g H='| head'
 alias -g T='2>&1 | tee -a'
 alias -g TL='| tail'

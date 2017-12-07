@@ -16,14 +16,14 @@ set background=dark
 let g:colors_name="newproggie2"
 
 " Editor settings
-hi Normal        cterm=none      ctermbg=234  ctermfg=248  gui=none   guibg=#1E1E1E  guifg=#B0B0B0
+hi Normal        cterm=none      ctermbg=234  ctermfg=254  gui=none   guibg=#1E1E1E  guifg=#B0B0B0
 hi CursorLine    cterm=bold      ctermbg=234  ctermfg=255 gui=bold   guibg=#1E1E1E  guifg=#F7F7F7
-hi Cursor        cterm=none      ctermbg=88  ctermfg=234  gui=none   guibg=#A94744  guifg=#1E1E1E
-hi LineNr        cterm=none      ctermbg=234  ctermfg=248  gui=none   guibg=#1E1E1E  guifg=#B0B0B0
-hi CursorLineNR  cterm=none      ctermbg=88  ctermfg=234  gui=none   guibg=#A94744  guifg=#1E1E1E
+hi Cursor        cterm=none      ctermbg=197  ctermfg=234  gui=none   guibg=#A94744  guifg=#1E1E1E
+hi LineNr        cterm=none      ctermbg=234  ctermfg=254  gui=none   guibg=#1E1E1E  guifg=#B0B0B0
+hi CursorLineNR  cterm=none      ctermbg=197  ctermfg=234  gui=none   guibg=#A94744  guifg=#1E1E1E
 
 " Number column
-hi CursorColumn  cterm=none      ctermbg=88  ctermfg=234  gui=none   guibg=#A94744  guifg=#1E1E1E
+hi CursorColumn  cterm=none      ctermbg=197  ctermfg=234  gui=none   guibg=#A94744  guifg=#1E1E1E
 hi FoldColumn    cterm=none      ctermbg=234  ctermfg=107  gui=none   guibg=#1E1E1E  guifg=#608B4E
 hi Folded        cterm=none      ctermbg=234  ctermfg=107  gui=none   guibg=#1E1E1E  guifg=#608B4E
 
@@ -31,7 +31,7 @@ hi Folded        cterm=none      ctermbg=234  ctermfg=107  gui=none   guibg=#1E1
 hi TabLine       cterm=none      ctermbg=234  ctermfg=220  gui=none   guibg=#1E1E1E  guifg=#D69831
 hi TabLineFill   cterm=none      ctermbg=234  ctermfg=220  gui=none   guibg=#1E1E1E  guifg=#D69831
 hi TabLineSel    cterm=none      ctermbg=234  ctermfg=220  gui=none   guibg=#1E1E1E  guifg=#D69831
-hi OverLength    cterm=none      ctermbg=234  ctermfg=88  gui=none   guibg=#1E1E1E  guifg=#A94744
+hi OverLength    cterm=none      ctermbg=234  ctermfg=197  gui=none   guibg=#1E1E1E  guifg=#A94744
 
 " File navigation / Searching
 hi Directory     cterm=none      ctermbg=234  ctermfg=75  gui=none   guibg=#1E1E1E  guifg=#569CD6
@@ -48,13 +48,13 @@ hi ModeMsg       cterm=bold      ctermbg=234  ctermfg=71 gui=bold   guibg=#1E1E1
 hi MatchParen    cterm=bold      ctermbg=234  ctermfg=255 gui=none   guibg=#1E1E1E  guifg=#F7F7F7
 hi Visual        cterm=none      ctermbg=240  ctermfg=255 gui=none   guibg=#3C3C3C  guifg=#F7F7F7
 hi NonText       cterm=none      ctermbg=234  ctermfg=234  gui=none   guibg=#1E1E1E  guifg=#1E1E1E
-hi Error         cterm=none      ctermbg=88  ctermfg=248  gui=bold   guibg=#1E1E1E  guifg=#A94744
-hi ErrorMsg      cterm=none      ctermbg=88  ctermfg=248  gui=bold   guibg=#1E1E1E  guifg=#A94744
-hi Todo          cterm=none      ctermbg=88  ctermfg=220  gui=bold   guibg=#1E1E1E  guifg=#D69831
-hi Repeat        cterm=bold      ctermbg=234  ctermfg=88  gui=bold   guibg=#1E1E1E  guifg=#A94744
+hi Error         cterm=none      ctermbg=197  ctermfg=254  gui=bold   guibg=#1E1E1E  guifg=#A94744
+hi ErrorMsg      cterm=none      ctermbg=197  ctermfg=254  gui=bold   guibg=#1E1E1E  guifg=#A94744
+hi Todo          cterm=none      ctermbg=197  ctermfg=220  gui=bold   guibg=#1E1E1E  guifg=#D69831
+hi Repeat        cterm=bold      ctermbg=234  ctermfg=197  gui=bold   guibg=#1E1E1E  guifg=#A94744
 
 " Completion menu
-hi Pmenu         cterm=none      ctermbg=240  ctermfg=248  gui=none   guibg=#3C3C3C  guifg=#B0B0B0
+hi Pmenu         cterm=none      ctermbg=240  ctermfg=254  gui=none   guibg=#3C3C3C  guifg=#B0B0B0
 hi PmenuSel      cterm=none      ctermbg=75  ctermfg=255 gui=none   guibg=#569CD6  guifg=#F7F7F7
 hi PmenuSbar     cterm=none      ctermbg=75  ctermfg=255 gui=none   guibg=#569CD6  guifg=#F7F7F7
 
@@ -67,7 +67,7 @@ hi SpellLocal    cterm=underline ctermbg=234  ctermfg=127  gui=none   guibg=#1E1
 " Diff
 hi DiffAdd       cterm=none      ctermbg=107  ctermfg=71 gui=none   guibg=#608B4E  guifg=#B5F2A1
 hi DiffChange    cterm=none      ctermbg=75  ctermfg=45 gui=none   guibg=#569CD6  guifg=#CEEDFE
-hi DiffDelete    cterm=none      ctermbg=88  ctermfg=127  gui=none   guibg=#A94744  guifg=#FFBDB8
+hi DiffDelete    cterm=none      ctermbg=197  ctermfg=127  gui=none   guibg=#A94744  guifg=#FFBDB8
 hi DiffText      cterm=none      ctermbg=220  ctermfg=221 gui=none   guibg=#D69831  guifg=#FFD887
 
 " General language constructs
